@@ -1,15 +1,13 @@
 {
-  "name": "AdminLTE",
+  "name": "cig-adminlte",
   "homepage": "http://almsaeedstudio.com",
   "authors": [
     "Abdullah Almsaeed <abdullah@almsaeedstudio.com>"
   ],
   "description": "Admin dashboard and control panel template",
   "main": [
-    "index2.html",
     "dist/css/AdminLTE.css",
-    "dist/js/app.js",
-    "build/less/AdminLTE.less"
+    "dist/js/app.js"
   ],
   "keywords": [
     "css",
@@ -25,9 +23,16 @@
   "license": "MIT",
   "ignore": [
     "/.*",
+    "/*.html",
+    "/*.md",
     "node_modules",
     "bower_components",
+    "documentation",
+    "build",
+    "pages",
     "composer.json",
-    "documentation"
+    "Gruntfile.js",
+    "package.json",
+    "yarn.lock"
   ]
 }
